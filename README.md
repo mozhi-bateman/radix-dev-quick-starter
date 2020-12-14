@@ -223,7 +223,8 @@ TBD
   `docker rmi $(sudo docker images --filter "dangling=true" -q --no-trunc)`
 
 ## Contact
-Please reach out to radix devs on discord for more information and additional assistance. ( I will look out for the messages on discord and assist to the best of my knowledge )
+- Please reach out to radix devs on discord for more information and additional assistance.( I will look out for the messages on discord and assist to the best of my knowledge )
+- Join the discussion [Discuss](https://github.com/mozhi-bateman/radix-dev-quick-starter/discussions/1)
 
 ## Support the work
 EXRD / ETH                ~ `0xCD640383d2C662594bDeb8CDDad7e4aC18C9e921`   
