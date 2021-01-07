@@ -77,7 +77,7 @@ A quick guide to setup radix dev environment in local, this document contains th
 ***NOTE***  Run the following commands from the root folder of repo radixdlt-core
 
 ## Customize Radix OOTB port configurations
-- To run radix components in local on different ports , try editing single-node.yml contents 
+- To run radix components in local on different ports , try editing node-1.yml contents 
 ![](images/ports.JPG)
 - Ensure to change the source java files (find the appropriate env that these port binds to from radix code base through ide file search , relevant configs/default.config.envsubst)
 - Build the docker image again with command `./gradlew deb4docker`
@@ -97,13 +97,13 @@ export RADIXDLT_UNIVERSE=XYZ
 ### Radix docker cheat sheet ###
 - To build and run the fauecet service , radix bootstrap node
 ```
-$ docker-compose -f docker/single-node.yml up --build  
+$ docker-compose -f docker/node-1.yml up --build  
 ```
 You should see fauecet and core container connection established successfully 
 ![](images/connection.JPG)
 - To stop a current running docker compose collocated containers , issue sig_interrupt/stop/ctr+c in the terminal and run the following command to remove the traces of default network created.
 ```
-$ docker-compose -f docker/single-node.yml down
+$ docker-compose -f docker/node-1.yml down
 ```
 
 ## Accessing docker logs directly
