@@ -42,8 +42,10 @@ A quick guide to setup radix dev environment in local, this document contains th
 - Download Intellij community edition (free version - in case if you would like to see the code )
 
 ## Code base
-- Clone radix core repository - [Core](https://github.com/radixdlt/radixdlt-core)
-- Clone radix dlt java , java-common , engine-library - [Repos](https://github.com/radixdlt)
+- Post RPN-1 code drop 2 individual branches has been archived and the code is maintained under single repo - [MonoRepo](https://github.com/radixdlt/radixdlt-parent)
+- `git clone https://github.com/radixdlt/radixdlt-parent`
+- ~~Clone radix core repository - [Core](https://github.com/radixdlt/radixdlt-core)
+- ~~Clone radix dlt java , java-common , engine-library - [Repos](https://github.com/radixdlt)
 
 ## IDE Instructions
 - Import the cloned folders into intellij as projects preferably in separate windows.
