@@ -55,7 +55,12 @@ A quick guide to setup radix dev environment in local, this document contains th
 - ./gradlew deb4docker 
 -  Took good amount of time to pull and build and bring up the node which involves downlaoding 
    ubuntu 20.04 , installs openjdk11 headless etc
-  
+
+#### Release beta-1.0.21 update ####
+- Switch to branch >1.0.21 for easier convinience of running radix nodes in your local [](https://github.com/radixdlt/radixdlt-core/tree/release/1.0-beta.21)
+- It's as simple as this command `./docker/scripts/rundocker.sh 2` ( second parameter is the number of nodes that you would like to boot up through docker-compose mode)
+- This new command supports upto running 5 nodes in local.
+
 ## Radix Universe Config ##
 - To run radix environment in local it is required to set the universe configuration through environment variables.
 ### Generate Radix local universe config ###
