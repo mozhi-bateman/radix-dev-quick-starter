@@ -27,7 +27,7 @@ Table of Contents
   * [End note](#end-note)
 
 
-
+[DEPRECATED] 
 ## Introduction
 A quick guide to setup radix dev environment in local, this document contains the code to generate a new local radix identity and get tokens from fauecet service. ( Couple of instructions and my first impressions on how it feels to dwell in radix code realm )
 - Control flow:   
